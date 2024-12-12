@@ -30,26 +30,22 @@ public class Main {
             System.out.println("Ваша ОС не поддерживается");
         }
     }
-    public static void distance
-    }
-
-
-    //3
-
-    int days = 0;
-    int distance = 47;
+    public static void distance(int distance) {
+        int days = 0;
+        int distance = 47;
         if (distance < 20) {
-        days = 1;
-    } else if (distance < 60) {
-        days = 2;
-    } else if (distance < 100) {
-        days = 3;
-    } else {
-        days = -1;
-    }
+            days = 1;
+        } else if (distance < 60) {
+            days = 2;
+        } else if (distance < 100) {
+            days = 3;
+        } else {
+            days = -1;
+        }
         if (days >= 0) {
-        System.out.println("доставка займет" + days + "дней");
-    } else {
-        System.out.println("доставки нет");
+            System.out.println("доставка займет" + days + "дней");
+        } else {
+            System.out.println("доставки нет");
+        }
     }
-}
+    }
